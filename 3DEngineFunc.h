@@ -1,5 +1,4 @@
-
-
+#pragma once
 
 #include <SFML/Graphics.hpp>
 #include <iostream>
@@ -117,17 +116,4 @@ struct _Vector3D
 	
 };
 
-int main()
-{
-	
-	_Vector3D vec(-4, 2, 7);
-	_Vector3D vec3(3, 1,2);
-	
-	std::cout << "Dot Product : " << vec.DotProduct(vec3) << "\n";
-	std::cout << "Distamce : " << vec.DistanceTo(vec3) << "\n";
-	std::cout << "Normalize" << vec.Normalize() << "\n";
-	std::cout << "Cross Product : " << vec.CrossProduct(vec3) << "\n";
-	std::cout << "Projection : " << vec.Proj_OnVec(vec3) << "\n";
 
-	return 0;
-}
