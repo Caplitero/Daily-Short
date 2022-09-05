@@ -217,7 +217,7 @@ struct _Vector3D
 	{
 		return _Vector3D(
 			(y * R_Vector.z - z * R_Vector.y),
-			-(x * R_Vector.z - z * R_Vector.x),
+			(z * R_Vector.x - x * R_Vector.z),
 			(x * R_Vector.y - y * R_Vector.x));
 	}
 
