@@ -179,7 +179,7 @@ struct _Vector3D
 	}
 
 	// Constructor with specified inputs
-	_Vector3D(float X = 0, float Y = 0, float Z = 0)
+	_Vector3D(float X , float Y , float Z = 0)
 	{
 		x = X;
 		y = Y;
